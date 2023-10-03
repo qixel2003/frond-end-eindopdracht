@@ -1,0 +1,68 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 40px;
+    
+}
+
+header {
+    background-color: #e7f7ff;
+    border: 1px solid #000000;
+    padding: 20px 0;
+    display: flex;
+}
+
+
+header nav {
+    margin: 0 40px;
+}
+
+
+.logo {
+    width: 5%;
+}
+
+.cancer {
+    width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #185a7b;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.rec {
+    /*background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;*/
+    flex:1;
+}
