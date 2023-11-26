@@ -20,25 +20,21 @@
                 <img src="images/Sacrifice-Trait.webp" alt="logo">
             </div>
             <div>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a class="button-default" href="#">Link</a>
+                <a href="#mercilesssword">Merciless-Sword</a>
+                <a href="#worshipfox">Worship-Fox</a>
+                <a href="#cotlbook">COTL-book</a>
+                <a class="button-default" href="#form">Contact</a>
             </div>
         </nav>
         <header>
             <div class="left-column">
                 <h1>Welkom</h1>
-                <p>Of je nu een doorgewinterde chef-kok bent of gewoon op zoek bent naar nieuwe recepten om uit te
-                    proberen, hier vind je
-                    inspiratie, tips en heerlijke creaties die je smaakpapillen zullen verwennen. Onze missie is simpel:
-                    we willen je helpen
-                    om de keuken te veroveren, nieuwe smaken te ontdekken en je liefde voor lekker eten te
-                    delen.</p>
+                <p>Cult of the Lamb draait om een lam dat de taak heeft een sekte te vormen om de onheilspellende godheid te kalmeren die
+                het leven van het personage van de speler heeft gered. Koop hier alles wat u nodig heeft voor uw reis.
+                </p>
                 <div class="head-links">
-                    <a href="#" class="button-default">link </a>
-                    <a href="#" class="button-default">link</a>
+                    <a href="#products" class="button-default">Producten </a>
+                    <a href="#form" class="button-default">Contact</a>
                 </div>
             </div>
             <div class="right-column">
@@ -49,7 +45,7 @@
 
         <main>
             <section>
-                <h2>Products</h2>
+                <h2 id="products">Producten</h2>
                 <div class="product-container">
 
                     <article>
@@ -58,11 +54,16 @@
                                 <img src="./images/Merciless-Sword.webp" alt="Merciless-Sword">
                             </div>
 
-                            <h3>Merciless-Sword</h3>
-                            <p>De "Merciless-Sword," Merciless Weapons have a chance to deal a Critical Hit when
-                                attacking enemies.
-                                The Merciless-Sword, a legendary weapon steeped in both history and myth, is said to
-                                possess unparalleled power and a dark, enigmatic aura.</p>
+                            <h3 id="mercilesssword">Merciless-Sword</h3>
+                            <div class="stars">
+                                <div class="yellow">★★</div>
+                                <div class="gray">★★★</div>
+                            </div>
+                            <p>De "Merciless-Sword", genadeloze wapens, hebben de kans om een kritieke treffer uit te
+                                delen bij het aanvallen van
+                                vijanden. Het genadeloze zwaard, een legendarisch wapen doordrenkt van zowel
+                                geschiedenis als mythe, zou een
+                                ongeëvenaarde kracht en een duistere, raadselachtige uitstraling bezitten.</p>
                         </div>
                         <a href="#" class="button-default">Bekijk product</a>
                     </article>
@@ -72,12 +73,16 @@
                             <div class="imgs">
                                 <img src="./images/Worship-Fox.webp" alt="Worship-Fox">
                             </div>
-                            <h3>Worship-Fox</h3>
-                            <p>Followers are the backbone of your cult, responsible for generation of Devotion,
-                                resources, and many other aspects.
-                                Perhaps the most important thing about Followers is that they are also in of themselves
-                                a resource and some rituals
-                                explicitly call for using them up.</p>
+                            <h3 id="worshipfox">Worship-Fox</h3>
+                            <div class="stars">
+                                <div class="yellow">★★★★</div>
+                                <div class="gray">★</div>
+                            </div>
+                            <p>Volgers vormen de ruggengraat van je sekte, verantwoordelijk voor het genereren van
+                                toewijding, middelen en vele andere
+                                aspecten. Misschien wel het belangrijkste aan Volgers is dat ze op zichzelf ook een
+                                hulpbron zijn en dat sommige
+                                rituelen expliciet oproepen om ze te gebruiken.</p>
                         </div>
                         <a href="#" class="button-default">Bekijk product</a>
                     </article>
@@ -87,7 +92,11 @@
                             <div class="imgs">
                                 <img src="./images/cotl-book.jpg" alt="Cult of the Lamb book">
                             </div>
-                            <h3>Cult of the Lamb book</h3>
+                            <h3 id="cotlbook">Cult of the Lamb book</h3>
+                            <div class="stars">
+                                <div class="yellow">★★★</div>
+                                <div class="gray">★★</div>
+                            </div>
                             <p>"Cult of the Lamb book" De gids begint met het basisgedeelte, waar je enkele praktische
                                 starttips
                                 leert die je zullen helpen de sekte effectief
@@ -101,7 +110,8 @@
                 </div>
             </section>
         </main>
-        <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+        <form id="form" action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+            <h2>Contact</h2>
             <div class="namen">
                 <div>
                     <label for="fistname">voornaam:</label>
@@ -131,10 +141,10 @@
                 <label for="send-to">onderwerp:</label>
                 <select id="send-to" name="send-to">
                     <option value="">kies onderwerp van het bericht...</option>
-                    <option value="0">Antwan</option>
-                    <option value="1">Bas</option>
-                    <option value="2">Erik</option>
-                    <option value="3">Martijn</option>
+                    <option value="0">Merciless-Sword</option>
+                    <option value="1">Worship-Fox</option>
+                    <option value="2">Cult of the Lamb book</option>
+                    <option value="3">Ander</option>
                 </select>
             </div>
             <div class="bericht">
@@ -164,7 +174,7 @@
             <button type="submit">Versturen</button>
         </form>
 
-        <footer>
+        <footer id="footer">
             <div class="logo">
                 <img src="images/Sacrifice-Trait.webp" alt="logo">
             </div>
@@ -172,9 +182,9 @@
                 <div class="bottom-div-left">
                     <p>Copyright 2023 QixInk</p>
                     <div class="icons">
-                        <img src="images/instaicon.png" alt="instagram-icon">
-                        <img src="images/facebookicon.png" alt="facebook-icon">
-                        <img src="images/snapicon.png" alt="snapchat-icon">
+                        <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram-icon"></a>
+                        <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook-icon"></a>
+                        <a href="https://www.snapchat.com/"><img src="images/snapicon.png" alt="snapchat-icon"></a>
                     </div>
                 </div>
                 <div class="bottom-div-right">

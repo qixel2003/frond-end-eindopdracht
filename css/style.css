@@ -198,6 +198,15 @@ main {
     gap: 10px;
 }
 
+.stars {
+    display: flex;
+    font-size: 28px;
+}
+
+.yellow {
+    color: yellow
+}
+
 input {
     font-size: 1rem;
     padding: 2px;
@@ -300,6 +309,7 @@ form div select {
 
     nav .logo {
         justify-content: center;
+        align-items: center;
     }
 
     .nav-con div {
