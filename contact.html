@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta viewport -->
+
+
+    <title>Foodblog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="center-container">
+
+        <nav class="nav-con">
+            <div class="logo">
+                <img src="images/Sacrifice-Trait.webp" alt="logo" href="index.html">
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                <a class="button-default" href="#form">Contact</a>
+            </div>
+        </nav>
+        <header>
+            <div class="left-column">
+                <h1>Contact</h1>
+                <p>
+                    Vul hier onze formulier in om in aanmerking te komen met uw nieuwe familie. 
+                    Een kleine moeite voor oneindigde vreugde!
+                </p>
+            </div>
+            <div class="right-column">
+
+            </div>
+
+        </header>
+
+        
+        <form id="form" action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+            <h2>Form</h2>
+            <div class="namen">
+                <div>
+                    <label for="fistname">voornaam:</label>
+                    <input type="text" id="fistname" name="fistname" placeholder="voer voornaam in..." required>
+                </div>
+                <div>
+                    <label for="lastname">achternaam:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="voer achternaam in..." required>
+                </div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="voer email in..." required>
+            </div>
+            <div class="namen">
+                <div>
+                    <label for="city">woonplaats</label>
+                    <input type="text" id="city" name="city" placeholder="voer woonplaats in..." required>
+                </div>
+                <div>
+                    <label for="birthdate">Datum</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+            </div>
+
+            <div>
+                <label for="send-to">onderwerp:</label>
+                <select id="send-to" name="send-to">
+                    <option value="">kies onderwerp van het bericht...</option>
+                    <option value="0">Merciless-Sword</option>
+                    <option value="1">Worship-Fox</option>
+                    <option value="2">Cult of the Lamb book</option>
+                    <option value="3">Ander</option>
+                </select>
+            </div>
+            <div class="bericht">
+                <label for="question">jouw vraag</label>
+                <textarea id="question" name="question" placeholder="jouw vraag..." required></textarea>
+            </div>
+
+            <div class="radio-container">
+                <div>
+                    <label for="category">inschrijven voor newsbrief</label>
+                </div>
+                <div>
+                    <div>
+                        <input type="radio" id="Ja" name="category" value="Ja">
+                        <label for="Ja">Ja</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Nee" name="category" value="Nee">
+                        <label for="Nee">Nee</label>
+                    </div>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                <label for="checkbox">ik ga akkoord met de algemene voorwaarden</label>
+            </div>
+            <button type="submit">Versturen</button>
+        </form>
+
+        <footer id="footer">
+            <div class="logo">
+                <img src="images/Sacrifice-Trait.webp" alt="logo">
+            </div>
+            <div class="bottom-div">
+                <div class="bottom-div-left">
+                    <p>Copyright 2023 QixInk</p>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/"><img src="images/instaicon.png" alt="instagram-icon"></a>
+                        <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook-icon"></a>
+                        <a href="https://www.snapchat.com/"><img src="images/snapicon.png" alt="snapchat-icon"></a>
+                    </div>
+                </div>
+                <div class="bottom-div-right">
+                    <div>
+                        <p>Privacyverklaaring</p>
+                    </div>
+                    <div>
+                        <p>Algemene voorwaarden</p>
+                    </div>
+                    <div>
+                        <p>Cookiebeleid</p>
+                    </div>
+                    <div>
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
