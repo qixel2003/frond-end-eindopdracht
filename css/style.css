@@ -10,17 +10,17 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 p {
@@ -169,7 +169,7 @@ main {
     max-width: 250px;
     border-radius: 1vw;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: cover; */
     justify-content: space-around;
 }
 
